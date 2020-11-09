@@ -24,7 +24,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
+    <!-- <link href="css/agency.min.css" rel="stylesheet"> -->
+    <link href="css/style.css" rel="stylesheet">
 
   </head>
 
@@ -41,13 +43,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">About</a>
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Skills</a>
+              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Projects</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -187,7 +189,7 @@
 
 
 
-    <!-- Projects -->
+    <!-- Portfolio/Projects -->
     <section class="bg-light" id="portfolio">
       <div class="container">
         <div class="row">
@@ -202,14 +204,18 @@
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
               <img class="img-fluid project-image" src="img/projects/hifi-planet.png" alt="">
             </a>
-            <div class="portfolio-caption">
-              <h4>Threads</h4>
-              <p class="text-muted">Illustration</p>
+
+            <div class="row mt-4 project-row">
+              <div class="col-6 text-center p-0">
+                <button type="button" class="btn btn-outline-primary project-button">Github</button>
+              </div>
+              <div class="col-6 text-center p-0">
+                <button type="button" class="btn btn-outline-primary project-button">Live Demo</button>
+              </div>
             </div>
           </div>
 
@@ -217,14 +223,18 @@
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
               <img class="img-fluid project-image" src="img/projects/mhw-armory.png" alt="">
             </a>
-            <div class="portfolio-caption">
-              <h4>Explore</h4>
-              <p class="text-muted">Graphic Design</p>
+
+            <div class="row mt-4 project-row">
+              <div class="col-6 text-center p-0">
+                <button type="button" class="btn btn-outline-primary project-button">Github</button>
+              </div>
+              <div class="col-6 text-center p-0">
+                <button type="button" class="btn btn-outline-primary project-button">Live Demo</button>
+              </div>
             </div>
           </div>
 
@@ -232,14 +242,18 @@
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
               <img class="img-fluid project-image" src="img/projects/hr-buddy.png" alt="">
             </a>
-            <div class="portfolio-caption">
-              <h4>Finish</h4>
-              <p class="text-muted">Identity</p>
+
+            <div class="row mt-4 project-row">
+              <div class="col text-center p-0">
+                <button type="button" class="btn btn-outline-primary project-button">Github</button>
+              </div>
+              <div class="col text-center p-0">
+                <button type="button" class="btn btn-outline-primary project-button">Live Demo</button>
+              </div>
             </div>
           </div>
 
@@ -252,24 +266,19 @@
     <!-- Contact -->
     <section id="contact">
       <div class="container">
+
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Contact</h2>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12">
 
+        <div class="row justify-content-center">
             <div class="col-md-4">
-              <ul class="list-inline social-buttons">
+              <ul class="list-inline social-buttons text-center">
                 <li class="list-inline-item">
                   <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-github"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
@@ -277,11 +286,15 @@
                     <i class="fab fa-linkedin-in"></i>
                   </a>
                 </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
               </ul>
             </div>
-
-          </div>
         </div>
+
       </div>
     </section>
 
