@@ -237,9 +237,6 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
-.skills-list > div > span > i {
-
-}
 
 .skills-list > div > h4 {
   font-size: 20px;
@@ -273,14 +270,40 @@ header.masthead .intro-text .intro-heading {
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
-  top: 50%;
+  top: 20%;
   width: 100%;
   height: 20px;
   margin-top: -12px;
   text-align: center;
   color: white;
+}
+
+.portfolio-hover-content {
+  padding: 0 10px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 350px) {
+  .portfolio-hover-content > h4{
+    padding-top: 15%;
+  }
+
+  .portfolio-hover-content > p{
+    display: none;
+  }
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
