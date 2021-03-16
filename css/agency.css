@@ -56,7 +56,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 125px 0;
   }
 }
 
@@ -707,6 +707,13 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   padding: 10px 15px;
   font-size: .9rem;
   font-weight: 500;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-color: rgba(77, 144, 142, 0.9);
+}
+
+.project-button:hover{
+  color: white;
+  background-color: rgba(77, 144, 142, 0.9);;
 }
 
 .project-image {
