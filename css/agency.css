@@ -181,7 +181,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 100%,
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 100%,
   rgba(0, 0, 0, 0) 100%), url("../img/header.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -212,8 +212,11 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 768px) {
+  header.masthead {
+  height: 950px;
+}
   header.masthead .intro-text {
-    padding-top: 300px;
+    padding-top: 350px;
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
@@ -230,6 +233,9 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 50px;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
+  /* .intro-heading {
+    font-size: 70px !important;
+  } */
 }
 
 .skills-heading {
